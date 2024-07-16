@@ -1,15 +1,12 @@
 let quotes = [
   {
-    text: "If you want to shine like a sun, first burn like a sun"
+    text: "Life is either a daring adventure or nothing."
   },
   {
-    text: "Life is like riding a bicycle. To keep your balance, you must keep moving."
+    text: "In three words I can sum up everything I've learned about life: it goes on."
   },
   {
-    text: "First, solve the problem. Then, write the code."
-  },
-  {
-    text: "Code is like humor. When you have to explain it, it’s bad."
+    text: "Life is made of ever so many partings welded together."
   },
 ];
 
