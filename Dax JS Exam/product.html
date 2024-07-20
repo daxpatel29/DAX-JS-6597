@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+</head>
+
+<body>
+    <form>
+        Enter Product Name: <input type="text" id="inp-title"> <br>
+        Enter Product Price: <input type="text" id="inp-price"> <br>
+        Enter Image Link: <img src="" alt="" id="inp-img"><br>
+        Enter Product Category: <input type="text" id="inp-cat"> <br>
+
+        <input type="button" value="Add" id="sbm" onclick="addProduct()"><br>
+        <input type="button" value="Update" onclick="editProduct()"><br>
+        <input type="button" Value="Delete" onclick="deleteProduct()">
+    </form>
+    <hr>
+    <table id="Products" border="2" width="100%">
+        <tr align="center">
+            <th width="25%">Name</th>
+            <th width="25%">Price</th>
+            <th width="25%">Image</th>
+            <th width="25%">Category</th>
+        </tr>
+        <tr align="center" id="phone">
+            <td>Nothing Phone 2 512 GB (White, 12 GB RAM)</td>
+            <td> 48,999.00 /-</td>
+            <td><img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTFi6Y4NKGJhb_HusWaMl9axdozmW8elV6VUgCFih84ZDTx9VzSigaOIzIbHxKxLQUnqpG_h6msuzEEQvLvYEZ2FlaW3VTBARahD7VIANM&usqp=CAE"
+                    alt="" width="90" height="130"></td>
+            <td>Mobile Phone</td>
+        </tr>
+        <tr align="center" id="Shoes">
+            <td>The Aurous Windstorm Carbon Black Laceup Sneakers 8</td>
+            <td>1,799.00 /-</td>
+            <td><img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTQbGXVtO6UyDnqPKOAEbWLxpIlQ5ijXvZ05hrSFB8yPNE5sUMaryCCh1bbwZBEsJGUj48US8jBdSxfZqYj-_ZgUksTiLh-h0WCcegocgU&usqp=CAE"
+                    alt="" width="90" height="130"></td>
+            <td>Shoes</td>
+        </tr>
+        <tr id="tRow">
+            <td>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+    </table>
+</body>
+<script src="product.js"></script>
+
+</html>
